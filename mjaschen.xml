@@ -1,0 +1,17 @@
+<presets author="Marcus Jaschen" description="Some useful presets for repeating tasks" shortdescription="Helper Presets" version="1.0" xmlns="http://josm.openstreetmap.de/tagging-preset-1.0">
+    <group name="Driveways">
+        <item name="Driveway Streetside" type="way">
+            <key key="highway" value="service"/>
+            <key key="service" value="driveway"/>
+        </item>
+        <item name="Driveway Private" type="way">
+            <key key="highway" value="service"/>
+            <key key="service" value="driveway"/>
+            <key key="access" value="private"/>
+        </item>
+        <item name="Gate Private" type="node">
+            <key key="barrier" value="gate"/>
+            <key key="access" value="private"/>
+        </item>
+    </group>
+</presets>
